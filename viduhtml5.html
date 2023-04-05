@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <div>
+                Email:
+                <input disabled placeholder="nhập email" type="email" name="user_email" id="email">
+                <input placeholder="nhập email" type="email" name="user_email" id="email">
+            </div>
+
+            <div>
+                Tel:
+                <input placeholder="nhập sđt" type="tel" name="" id="arl">
+            </div>
+
+            <div>
+                URL:
+                <input  type="url" name="" id="url">
+            </div>
+
+            <div>
+                Number:
+                <input  type="number" 
+                        step="0.1" 
+                        min="0" 
+                        name="" 
+                        id="url" >
+            </div>
+
+            <div>
+                choose your prince:
+                <input type="range"
+                       min="1"
+                       max="20"
+                       step="1"
+                       name=""
+                       id="pice"/>
+            </div>
+
+            <div>
+                Date:
+                <input type="datetime-local" name="" id="">
+            </div>
+
+            <div>
+                Week:
+                <input type="week" name="week" id="week">
+            </div>
+
+            <div>
+                Time(date/time) values:
+                <input type="date"
+                       name="date"
+                       id="date"
+                       min=""
+                       max=""
+                       step=""
+                       >
+            </div>
+
+            <div>
+                <input type="color" name="" id="">
+            </div>
+
+            <div>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <select name="select" id="sel">
+                    <option value="1"> Cơm </optgroup>
+                    <option value="1"> Phở </optgroup>
+                    <option selected value="1"> Miến </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <label for="menu">choose items </label>
+                <input list="mylist" type="text" name="menu" id="menu">
+                <datalist id="mylist" >
+                    <option > Cơm </option>
+                    <option > Bún </option>
+                    <option > Miến </option>
+                    <option > Phở </option>
+            <!-- không bị giới hạn lựa chọn, có thể thêm những yêu cầu không có nêu trên -->
+                </datalist>
+            </div>
+
+            <div>
+                <button type="submit"> login </button>
+            </div>
+        </form>
+    </body>
+</html>
