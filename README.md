@@ -1,2 +1,3 @@
 # ss9
-action="http://fptaptech.herokuapp.com" method="get">
+form
+- thu thập tương tác, lấy dữ liệu từ người dùng
